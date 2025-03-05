@@ -1,0 +1,38 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+@import '/node_modules/cropperjs/dist/cropper.css';
+@import '/vendor/awcodes/filament-curator/resources/css/plugin.css';
+@import '/vendor/awcodes/filament-tiptap-editor/resources/css/plugin.css';
+@config 'tailwind.config.js';
+
+
+/*.fi-section{*/
+/*    height: 100% !important;*/
+/*}*/
+
+.text-wrap{
+    word-break: break-all;
+    text-wrap: wrap;
+}
+
+/*.fi-dropdown-panel{*/
+/*    width:fit-content !important;*/
+/*}*/
+
+ul.curator-picker-grid{
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+ul.curator-picker-grid > li {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.tox-pop{
+    display: none !important;
+}
+
+.object-cover{
+    -o-object-fit: contain !important;
+    object-fit: contain !important;
+}

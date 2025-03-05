@@ -1,0 +1,66 @@
+.contact-us-section .social-contact picture {
+  display: block;
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+.contact-us-section .social-contact .icon-social-contact {
+  border: 8px solid #dc993733;
+  border-radius: 50%;
+}
+.contact-us-section .content-contact-us h4 span {
+  font-size: 1.25rem;
+  font-weight: 500 !important;
+  color: var(--primary-color);
+}
+.contact-us-section .social-contact h3 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+.contact-us-section .social-contact ul {
+  padding: 0;
+}
+.contact-us-section .social-contact p {
+  margin-bottom: 0;
+}
+.contact-us-section .social-contact .content-social-two {
+  padding-left: 10.9rem;
+}
+
+.arabic-version .contact-us-section .social-contact .content-social-two {
+  padding-right: 9.3rem;
+  padding-left: 0;
+}
+@media (max-width: 475px) {
+  .contact-us-section .social-contact .content-social-two {
+    padding-left: 4.9rem;
+  }
+
+  .arabic-version .contact-us-section .social-contact .content-social-two {
+    padding-right: 4.9rem;
+  }
+}
+.iti__country-list {
+  width: 200px;
+}
+.contact-us-section .social-media {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.contact-us-section .social-media picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+}

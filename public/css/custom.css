@@ -1,0 +1,1943 @@
+/*IEC-31*/
+
+
+
+#History .history-sliders-section {
+    background: #2C362B0D;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+#History .history-slider {
+    margin-top: unset;
+}
+
+.history-slide img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.geyHistory-line {
+    height: 5px;
+    width: -webkit-fill-available;
+}
+
+.history-timline-slide h3{
+    font-weight: 600;
+}
+
+
+#Founders  .last-yellow-box h3 {
+    font-weight: 510;
+}
+
+.arabic-version #Founders  .last-yellow-box h3 {
+    font-weight: 600;
+}
+
+
+
+#Founders .main-top p {
+    width: 59%;
+    text-align: justify;
+    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+}
+
+
+.Founders-card {
+    padding-top: 2.3rem;
+    padding-bottom: 2.3rem;
+}
+
+
+.facilities-inner-section .mb-5 {
+    margin-bottom: 4.5rem !important;
+}
+
+
+#FacilitiesInner .slick-dots li {
+    transform: scale(1.2);
+}
+
+
+#FacilitiesInner .main-top p {
+    width: 60%;
+    text-align: start;
+    padding-top: 3.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#FacilitiesInner  .slider-with-progress-bar--single-slide-title h4 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 14px;
+}
+
+
+#FacilitiesInner .slider-with-progress-bar--controllers-arrow span {
+    height: 40px;
+    padding: 0.7rem;
+    width: 40px;
+
+}
+
+
+#ExtraCurricularActivities .main-top p {
+
+    padding-top: 3.5rem;
+    padding-bottom: unset;
+}
+
+.curricular-activities-section .info-curricular-activities picture {
+    width: 70px;
+    height: 70px;
+
+}
+
+.facilities-section.mt-5 > .mb-5{
+    margin-bottom: 2rem !important;
+}
+
+
+/*ticket 21*/
+
+#ChairmanLetter .ChairmanLetter-section p {
+    width: 80%;
+    text-align: justify;
+    color: #2C362B;
+
+}
+
+
+#ChairmanLetter .main-top p {
+    color: #2C362B;
+    padding-bottom: unset;
+    padding-top: 3.5rem;
+
+}
+
+
+#ChairmanLetter .ChairmanLetter-section h4 {
+    padding-bottom: 0.5rem;
+}
+
+
+#AdmissionPolicy .main-top p {
+    padding-top: 3.5rem;
+}
+
+
+/*ticket23 and 22*/
+#AdmissionPolicy .main-top p {
+    padding-top: 3.5rem;
+}
+
+#AdmissionPolicy .admission-policy-section li{
+    font-size: 0.95rem;
+}
+
+
+
+
+#AdmissionPolicy .admission-policy-section ul:not(.marker-admission) {
+    list-style-type: none; /* Remove default bullet points */
+    counter-reset: list-counter; /* Initialize counter */
+}
+#AdmissionPolicy .admission-policy-section ul:not(.marker-admission) li {
+    counter-increment: list-counter; /* Increment counter for each list item */
+}
+#AdmissionPolicy .admission-policy-section ul:not(.marker-admission) li::before {
+    content: counter(list-counter) "- "; /* Display counter with dash */
+}
+
+
+#AdmissionPolicy .admission-policy-section h3 {
+    font-weight: 510;
+
+}
+
+#AdmissionPolicy .admission-policy-section h4 {
+    font-weight: 510;
+
+}
+
+
+.arabic-version #AdmissionPolicy .admission-policy-section h3 {
+    font-weight: 600;
+
+}
+
+.arabic-version #AdmissionPolicy .admission-policy-section h4 {
+    font-weight: 600;
+
+}
+
+
+/* Ticket 5 */
+.moreAbout-section {
+    margin-top: 3rem;
+    background: #2c362b0d;
+}
+.moreAbout-section h2 {
+    margin-bottom: 3rem;
+}
+.glossary a,
+.glossary span {
+    font-size: 0.85rem;
+}
+.awards-card picture {
+    width: 115px;
+    height: 115px;
+}
+.awards-card picture img {
+    width: 64px;
+}
+/* Ticket 8 */
+.home-educational-Programs-content-inner h3,
+.home-educational-Programs-content-inner p {
+    color: #fff;
+}
+.home-educational-Programs-content-inner h3 {
+    font-weight: 510;
+}
+.home-educational-Programs-controllers .nav-link {
+    font-family: Helvetica;
+    font-weight: 510;
+    font-size: 1rem;
+}
+#cssmenu.head_btm_menu > ul > li,
+#cssmenu.head_btm_menu > ul ul li a,
+#cssmenu ul ul li {
+    font-size: 0.95rem;
+}
+.main-navigation-search-container > li,
+.main-navigation-search-container > li > .navigation-search {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.container.home-hero-slide-content h1 {
+    font-weight: 510;
+}
+@media (min-width: 992px) {
+    .container.home-hero-slide-content p {
+        width: 560px;
+        max-width: unset;
+    }
+}
+.home-iec-in-numbers-card-content h1 {
+    font-weight: 510;
+}
+.single-testimonials-slide p {
+    text-align: justify;
+}
+.single-testimonials-slide {
+    gap: 0;
+}
+.home-floating-single-card img {
+    height: 65px;
+    width: 65px;
+}
+.home-about-iec-content-single-slide-content > * {
+    color: #fff;
+}
+.home-about-iec-container {
+    background: linear-gradient(270deg, rgb(220 153 55) 0%, #dc9937 35.83%);
+}
+
+.slider-with-progress-bar--title h2 {
+    color: var(--primary-color);
+}
+.home-floating-single-card > h4 {
+    min-height: 25px;
+}
+/* Ticket 9 */
+.arabic-version .main-btn,
+.arabic-version .main-btn span {
+    font-size: 0.9rem;
+}
+/*.arabic-version .main-btn svg {*/
+/*    scale: -1;*/
+/*}*/
+/* Ticekt 11 */
+.footer-copyright-container-centered p,
+.footer-copyright-container-centered a {
+    font-family: Helvetica !important;
+    font-size: 0.95rem;
+}
+.footer-item:last-child a picture img {
+    width: 25px;
+    height: 25px;
+}
+.main-footer-container > .footer-section {
+    padding: 2rem 0 0.2rem 0 !important;
+}
+/* Ticekt 13 */
+.main-navigation--container .upper-nav > a:not(:last-child) > span {
+    font-size: 0.9rem;
+}
+.main-navigation--container .upper-nav > div a:not(:last-child) > picture img {
+    height: 25px;
+}
+.main-navigation--container .upper-nav > div a:last-child > picture img {
+    height: 20px;
+}
+.main-navigation--container .upper-nav > div a span {
+    font-size: 0.95rem;
+    font-weight: 400;
+}
+/* Ticekt 15 */
+.arabic-version .container.home-hero-slide-content h1 {
+    font-weight: 700;
+}
+.arabic-version .home-iec-in-numbers-card-content h1 {
+    font-weight: 600;
+}
+.arabic-version .home-educational-Programs-controllers .nav-link {
+    font-family: GE-Dinar;
+}
+
+
+/*ticket 21*/
+
+#Facilities .main-top p ,
+#History .main-top p  {
+    padding-top: 3.5rem;
+    padding-bottom: unset;
+}
+
+/*ticket 20*/
+
+#Downloads .Download-card-content .main-btn {
+    padding: 0.5rem 2rem;
+}
+
+/*ticket 19*/
+
+#Downloads .main-top p {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+
+
+#Downloads .Download-section .container {
+    gap: 20px;
+}
+
+#Downloads .Download-card-content {
+    gap: 0.5rem;
+}
+
+#Downloads .main-btn span {
+    font-weight: 500;
+}
+
+/*ticket 18*/
+
+/*.arabic-version .main-navigation--container*/
+
+
+.arabic-version .main-navigation--container .upper-nav > div a:nth-child(2) > picture img {
+    height: 25px;
+}
+
+
+/* Ticket 33 */
+.research-report-pagination {
+    justify-content: flex-start !important;
+}
+.research-report-pagination .page-item.active .page-link {
+    background-color: var(--secondary) !important;
+}
+.main-topic form label {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+.main-topic form select {
+    font-family: Helvetica;
+    font-size: 0.85rem;
+    color: var(--secondary);
+    opacity: 0.5;
+}
+.latestNews-card span {
+    font-weight: 400;
+}
+
+/* Ticket 34 */
+.history-container-images .history-image p {
+    font-size: 0.95rem;
+}
+.main-top p {
+    width: 58%;
+}
+.our-ics-history .main-head h2 {
+    margin-bottom: 1.5rem !important;
+}
+.history-container-images .history-image.history-image.active .history-date h2 {
+    color: var(--primary-color);
+}
+.history-container-images .history-image.history-image .history-date h2,
+.history-container-images .history-image::before {
+    font-weight: 600;
+}
+.history-container-images .history-image.history-image .history-date h2 {
+    color: rgb(44 54 43 / 60%);
+}
+
+.history-container-images .history-image::before {
+    background: #2c362b4d;
+}
+.history-container-images .history-image .history-date {
+    left: 49%;
+}
+/* Ticket 35 */
+.main-topic form select {
+    width: 299px;
+    padding: 0.4rem 0.5;
+}
+.custom-accordion .accordion-item .accordion-button:last-of-type,
+.custom-accordion .accordion-item .accordion-button,
+.custom-accordion .accordion-item .accordion-body p {
+    font-family: Helvetica;
+}
+/* Ticket 36 */
+.LastestNewsInner-section {
+    margin-bottom: 3rem;
+}
+#LastestNewsInner .slider-with-progress-bar--title {
+    padding-bottom: 1.5rem;
+}
+.main-topic svg {
+    width: 25px;
+}
+#LastestNewsInner .main-top p {
+    font-weight: 510;
+}
+.arabic-version #LastestNewsInner .main-top p {
+    font-weight: 600;
+}
+.share-btn {
+    font-size: 1rem;
+    position: unset !important;
+    margin-bottom: unset !important;
+}
+.LastestNewsInner-slider .slick-dots li button:before {
+    font-size: 13px;
+}
+/* Ticket 37 */
+.Faqs-acc-splited-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+/* Ticket 39 */
+.play-video-icon img {
+    width: 13px !important;
+}
+.play-video-icon {
+    height: 38px;
+    max-width: 38px !important;
+}
+#videoGallery .main-top p {
+    padding: 3.5rem 0;
+}
+/* Ticket 40 */
+.secondary-btn {
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 1;
+}
+.arabic-version .secondary-btn i {
+    scale: -1;
+}
+.secondary-btn:hover {
+    color: var(--primary-color) !important;
+}
+.secondary-btn::before {
+    transition: all 0.3s ease-out;
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 40px;
+    z-index: -1;
+}
+.secondary-btn:hover::before {
+    width: 100%;
+    transition: all 0.3s ease-out;
+}
+.lastestNews-section {
+    padding: 1rem 0 !important;
+}
+#SummerCamp .main-topic h3 {
+    font-weight: 510;
+    padding: 1.5rem 0;
+}
+.arabic-version #SummerCamp .main-topic h3 {
+    font-weight: 600;
+}
+.box-people {
+    padding-inline-start: 5rem;
+}
+.box-people picture img {
+    width: 80px;
+    height: 80px;
+}
+
+/* ==== */
+.last-yellow-box > div {
+    flex: 1;
+}
+
+
+/*ticket 17*/
+
+.arabic-version .footer-section .footer-item h5 {
+    padding-bottom: unset;
+}
+
+
+
+.arabic-version .main-footer-container .footer-item ul li {
+    padding-bottom: 0.5rem;
+}
+
+
+
+.arabic-version .footer-copyright-container-centered p, .arabic-version .footer-copyright-container-centered a {
+    font-family: GE-Dinar !important;
+}
+
+/*ticket 16*/
+
+#BoardofDirectors .main-top p {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+#BoardofDirectors .last-yellow-box p , #BoardofDirectors .last-yellow-box h4 {
+    color: white;
+
+}
+
+
+#BoardofDirectors .last-yellow-box .secondary-btn span {
+    font-size: 0.9rem;
+}
+
+
+.arabic-version #BoardofDirectors .last-yellow-box .secondary-btn svg {
+    transform: rotate(180deg);
+}
+
+/*ticket 11*/
+
+.footer-section .footer-item h5 {
+    padding-bottom: 0.75rem;
+}
+
+.main-footer-container .footer-item ul li {
+    color: #e0e0e0;
+    padding-bottom: 0.2rem;
+}
+
+
+/*ticket 8 */
+
+.main-navigation-search-container .navigation-search span {
+    font-weight: 400;
+}
+
+/*ticket 5*/
+
+
+
+.awards-card picture {
+    border-radius: 50%;
+    border: 2px solid rgba(220, 153, 55, 1);
+}
+
+
+/*ticket 21 */
+#Facilities .main-top p, #History .main-top p {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+/*ticket 22 */
+
+#AdmissionPolicy .admission-policy-section h4 {
+    color: #dc9937;
+}
+
+#AdmissionPolicy ul:not(.marker-admission) {
+    padding-left: unset;
+}
+
+/*ticket 27*/
+
+.arabic-version .share-btn {
+    font-family: GE-Dinar;
+}
+
+/*ticket 30*/
+
+#Founders .Founders-card h4 {
+    color: #dc9937;
+}
+
+/*ticket 33*/
+
+.research-report-pagination .page-item .page-link {
+    font-weight: 500 !important;
+}
+
+
+/*ticket 36*/
+
+.share-btn {
+    font-family: Helveti;
+}
+
+/* Ticket 42 */
+#MissionVision .main-top p {
+    padding: 3.5rem 0 !important;
+}
+.mission-vision-card {
+    border: 1px solid #2c362b26;
+    border-radius: 10px;
+}
+.mission-vision-card .orange-icon picture img {
+    width: 38px;
+}
+
+/* Ticket 43 */
+.date-summer-inner h4 {
+    color: var(--primary-color);
+    font-size: 1rem;
+    padding: 0;
+}
+.main-topic h3 {
+    font-weight: 510;
+    padding: 1.5rem 0;
+}
+.arabic-version .main-topic h3 {
+    font-weight: 600;
+}
+.main-topic img {
+    width: 25px !important;
+}
+/* Ticket 44 */
+.arabic-version #MissionVision .main-btn svg {
+    transform: scale(-1);
+}
+/* Ticket 45 */
+#PhotoGallery .main-top p {
+    padding-top: 3.5rem;
+}
+.photoGallery-card {
+    padding-bottom: 1rem;
+}
+.photoGallery-card {
+    border-radius: 10px;
+}
+
+
+/* Ticket 60 & 68 */
+.arabic-version .moreAbout-card-content {
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+}
+.arabic-version #Awards .main-btn svg {
+    scale: -1;
+}
+/* Ticket 59 */
+.fixed-registration-card-close i {
+    font-size: 27px;
+}
+/* Ticket 57 */
+.fixed-registration-card {
+    position: absolute;
+    z-index: 9999;
+}
+.bg-card {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    background-color: #2c362ba1;
+    top: 0;
+}
+/* Ticket 54 */
+@media (max-width: 767.8888889px) {
+    .arabic-version .main-top p {
+        width: auto;
+    }
+}
+/* Ticket 51 */
+@media (max-width: 575px) {
+    .main-footer-container > .footer-section,
+    .school-accreditations {
+        padding: 0 1rem !important;
+    }
+}
+@media (max-width: 767.8888889px) {
+    .main-footer-container .footer-copyright-container-centered {
+        flex-direction: column-reverse;
+    }
+}
+
+
+/*  ticket  82  */
+
+.arabic-version .main-navigation--container .upper-nav > div a:nth-child(2) > picture img {
+    height: 20px;
+}
+
+/*  ticket  7  */
+
+h1{
+    font-weight:600;
+}
+
+
+
+.arabic-version h1{
+    font-weight:510;
+}
+
+
+
+/* Ticket 48 */
+.searchBarOpen--input label {
+    font-size: 1.3rem;
+    font-weight: 510;
+}
+.searchBarOpen.search-active > .searchBarOpen--closeBtn {
+    font-size: 2rem;
+}
+.searchBarOpen.search-active {
+    background-color: #2c362ba1;
+}
+/* Ticket 49 */
+.contact-us-section .social-contact .icon-social-contact {
+    border: 7px solid #dc993733;
+}
+.all-check {
+    flex-wrap: wrap;
+}
+#RegistrationForm .main-btn {
+    padding: 0.3rem 1rem;
+}
+.contact-us-section .social-contact picture {
+    width: 46px;
+    height: 46px;
+}
+.contact-us-section .social-contact .content-social-two {
+    padding-left: 9.7rem;
+}
+#RegistrationForm h3 {
+    font-weight: 600;
+}
+/* Ticket 48 */
+.no-scroll {
+    overflow: hidden !important;
+}
+
+/* Ticket 50 */
+@media (max-width: 576.889px) {
+    #cssmenu.small-screen > ul:not(.main-navigation-search-container) {
+        width: 100vw;
+        inset-inline-start: calc(-210px);
+        top: calc(100% + -1px);
+    }
+}
+
+@media (max-width: 575px) {
+    #cssmenu.small-screen > ul:not(.main-navigation-search-container) {
+        width: 100vw;
+        inset-inline-start: calc(-200px);
+        top: calc(100% + 0px);
+    }
+}
+@media (max-width: 400px) {
+    #cssmenu.small-screen > ul:not(.main-navigation-search-container) {
+        width: 100vw;
+        inset-inline-start: calc(-166px);
+        top: calc(100% + 0px);
+    }
+}
+
+@media (max-width: 399px) {
+    #cssmenu.small-screen > ul:not(.main-navigation-search-container) {
+        width: 100vw;
+        inset-inline-start: calc(-164px);
+        top: calc(100% + 0px);
+    }
+}
+@media (max-width: 375px) {
+    #cssmenu.small-screen > ul:not(.main-navigation-search-container) {
+        width: 100vw;
+        inset-inline-start: calc(-162px);
+        top: calc(100% + 0px);
+    }
+}
+@media (max-width: 1200.89px) {
+    #cssmenu #menu-button + ul {
+        height: 408px;
+        overflow-y: scroll;
+    }
+}
+.arabic-version #cssmenu ul li ul li:hover i {
+    transform: rotate(180deg);
+}
+
+/* Ticket 53 */
+#AdmissionPolicy .Header-section {
+    background-image: unset;
+    position: relative;
+}
+#AdmissionPolicy .Header-section::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#AdmissionPolicy .Header-section .pattern {
+    position: absolute;
+    z-index: 1;
+    inset-inline-start: 5rem;
+    bottom: 10%;
+    width: 29%;
+}
+@media (max-width: 767.98px) {
+    #AdmissionPolicy .Header-section .pattern {
+        bottom: 71%;
+        width: 28%;
+    }
+}
+@media (max-width: 575.98px) {
+    #AdmissionPolicy .Header-section .pattern {
+        inset-inline-start: 1rem;
+        bottom: 74%;
+        width: 34%;
+    }
+}
+@media (max-width: 575.98px) {
+    #AdmissionPolicy .Header-section .pattern {
+        inset-inline-start: 1rem;
+        bottom: 74%;
+        width: 43%;
+    }
+}
+
+
+/* Ticket 62 */
+#FacilitiesInner .main-top p {
+    width: 100%;
+}
+/* Ticket 64 */
+.slider-with-progress-bar--controllers-arrow {
+    margin-left: 3px;
+}
+.arabic-version .slider-with-progress-bar--controllers-arrow {
+    margin-right: 3px;
+    margin-left: 0;
+}
+
+/* Ticket 63 */
+.home-about-iec-timeline-dates-slide span::after {
+    top: 56%;
+}
+.home-about-iec-timeline-dates-slide span::before {
+    border-radius: 45%;
+}
+
+/* ===== */
+.secondary-btn {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.secondary-btn span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Ticket 80 */
+.arabic-version
+.custom-accordion
+.accordion-item
+.accordion-button:last-of-type,
+.arabic-version .custom-accordion .accordion-item .accordion-button,
+.arabic-version .custom-accordion .accordion-item .accordion-body p {
+    font-family: GE-Dinar;
+}
+
+/* Ticket 46 */
+#InternationalBaccalaureate .main-top p {
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+.international-baccalaureate-section h3 {
+    font-weight: 600;
+}
+.Download-section .main-btn svg path {
+    fill: #0091d0;
+}
+.Download-section .main-btn:hover svg path {
+    fill: #fff;
+}
+.Download-section .main-btn svg,
+.Download-section .main-btn span {
+    z-index: 1;
+}
+.Download-section .main-btn::before {
+    z-index: 0;
+}
+.Download-section .container {
+    gap: 22px;
+}
+.Download-card {
+    background-color: #fff;
+}
+
+/*Ticket 16*/
+
+.BoardofDirectors-section .container {
+    gap: 15px;
+}
+
+/*ticket 27*/
+
+.share-btn {
+    font-family: 'Helvetica';
+}
+
+
+.main-btn span {
+    font-weight: 500 !important;
+}
+
+/*ticket 37*/
+
+.custom-accordion .accordion-item .accordion-body p {
+    color: #1c362b;
+}
+/*ticket 40*/
+
+#SummerCamp .main-topic h3 {
+    padding-top: 3.5rem;
+}
+
+#SummerCamp .Header-section-content  .secondary-btn:hover{
+    color: #262836;
+}
+
+#SummerCamp .latestNews-card-content{
+    text-align: justify;
+}
+
+
+/*ticet 55*/
+
+.Header-section .container picture img {
+    right: 30px;
+}
+.main-top p {
+    width: 52%;
+}
+
+.arabic-version .Header-section .container picture img {
+    left: 40px;
+    right: unset;
+}
+.arabic-version .main-top p {
+    width: 52%;
+}
+
+
+
+.Download-section .main-btn {
+    padding: 0.3rem 2rem;
+}
+
+/*ticket93*/
+#HistoryICS .history-image:not(.active) .history-date{
+    top: -31%;
+}
+
+.arabic-version #HistoryICS .history-image .history-date{
+    left: 53%;
+}
+
+#HistoryICS .history-image:not(.active) .history-date{
+    left: 42%;
+}
+
+.arabic-version #HistoryICS .history-image:not(.active) .history-date{
+    left: 66%;
+}
+
+#HistoryICS .history-container-images {
+    height: 636px;
+}
+
+
+.history-container-images .history-image::before {
+    height: 25%;
+}
+
+/*ticket 92*/
+
+#MissionVision .moreAbout-section .moreAbout-card:hover img,
+#History .moreAbout-section .moreAbout-card:hover img,
+#Awards .moreAbout-section .moreAbout-card:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease-out;
+}
+
+#MissionVision .moreAbout-section .moreAbout-card img,
+#History .moreAbout-section .moreAbout-card img,
+#Awards .moreAbout-section .moreAbout-card img {
+    transition: all 0.3s ease-out;
+}
+
+#MissionVision .moreAbout-section .moreAbout-card picture,
+#History .moreAbout-section .moreAbout-card picture,
+#Awards .moreAbout-section .moreAbout-card picture {
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/*ticket 91*/
+
+#BoardofDirectors .last-yellow-box .secondary-btn:hover svg {
+    fill: var(--primary-color) !important;
+}
+
+/* Ticket 66 */
+.history-slider-arrows {
+    transform: translate(-50%, -50%);
+    top: 91%;
+    left: 50%;
+}
+@media (max-width: 1199.889px) {
+    .history-slider-arrows {
+        transform: translate(-50%, -50%);
+        top: 90%;
+        left: 51%;
+    }
+}
+@media (max-width: 991.889px) {
+    .history-slider-arrows {
+        transform: unset;
+        top: unset;
+        left: unset;
+        margin-inline-start: auto;
+    }
+}
+
+/* Ticket 67 */
+@media (max-width: 767.889px) {
+    #ChairmanLetter .ChairmanLetter-section p {
+        width: auto !important;
+    }
+}
+
+/* Ticket 68 */
+.home-educational-Programs-controllers .nav-link.active:nth-child(4)::after,
+.home-educational-Programs-controllers .nav-link.active:nth-child(5)::after,
+.home-educational-Programs-controllers .nav-link.active:nth-child(6)::after {
+    background-color: #14b1e7;
+}
+
+/* Ticket 72 */
+/* @media (max-width: 1200.89px) {
+  #cssmenu #menu-button + ul {
+    height: auto !important;
+    overflow-y: scroll;
+  }
+}
+@media (max-width: 991.89px) {
+  #cssmenu #menu-button + ul {
+    height: 408px;
+    overflow-y: scroll;
+  }
+} */
+
+/* Ticket 73 */
+#Downloads .Download-section .main-btn svg path {
+    fill: var(--primary-color);
+}
+#Downloads .Download-section .main-btn:hover svg path {
+    fill: #fff;
+}
+
+/* ticket 74 */
+.home-virtual-tour-section-inner-scan {
+    width: 100%;
+}
+.home-virtual-tour-section-inner-scan picture {
+    width: 100%;
+    display: block;
+}
+.home-virtual-tour-section-inner-scan picture img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 991.89px) {
+    .fixed-registration-card {
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        bottom: unset;
+    }
+}
+/* ticket 75 */
+/*.arabic-version .PhotoGallery-section .container picture {*/
+/*    scale: -1;*/
+/*}*/
+
+/* Ticket 76 */
+@media (max-width: 767.89px) {
+    .Video-card-content {
+        justify-content: space-between;
+    }
+    .Video-card-content h4 {
+        margin: 0;
+    }
+}
+
+/* ticket 77 */
+@media (max-width: 991.889px) {
+    .PhotoGallery-section .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ticket 79 */
+/*.custom-accordion .accordion-item .accordion-button:last-of-type,*/
+/*.custom-accordion .accordion-item .accordion-button {*/
+/*    background-color: var(--primary-color);*/
+/*    color: #fff;*/
+/*    border-color: var(--primary-color);*/
+/*}*/
+/*.custom-accordion .accordion-button:not(.collapsed) .accordion-btn {*/
+/*    background: rgba(44, 54, 43, 1);*/
+/*}*/
+/*.custom-accordion .accordion-button:not(.collapsed) .accordion-btn::before {*/
+/*    background: inherit;*/
+/*}*/
+
+/* Ticket 81 */
+@media (min-width: 768px) {
+    .container.home-hero-slide-content {
+        width: 82%;
+    }
+}
+@media (max-width: 991.889px) {
+    .home-hero-slider .slick-dots {
+        position: absolute;
+        bottom: 1rem;
+        z-index: 500;
+    }
+}
+@media (max-width: 660.889px) {
+    .container.home-hero-slide-content {
+        gap: 0.25rem;
+    }
+    .container.home-hero-slide-content h1 {
+        font-size: 1.75rem;
+    }
+    .container.home-hero-slide-content h3 {
+        font-size: 1.2rem;
+    }
+    .container.home-hero-slide-content p {
+        font-size: 0.8rem;
+    }
+    .container.home-hero-slide-content {
+        width: 82%;
+    }
+}
+@media (max-width: 445px) {
+    .container.home-hero-slide-content {
+        gap: 0.25rem;
+        padding: 0;
+    }
+    .container.home-hero-slide-content h1 {
+        font-size: 1.75rem;
+    }
+    .container.home-hero-slide-content h3 {
+        font-size: 1.2rem;
+    }
+    .container.home-hero-slide-content p {
+        font-size: 0.8rem;
+    }
+    .container.home-hero-slide-content {
+        width: 80%;
+    }
+}
+
+/* Ticekt 26 */
+form .head-form h3 {
+    font-weight: 510;
+    margin-bottom: 0 !important;
+}
+form label {
+    font-family: Halvetica;
+    font-size: 0.95rem;
+}
+form input {
+    font-family: Halvetica;
+    font-size: 0.85rem;
+    color: var(--secondary);
+}
+.arabic-version form label input,
+.arabic-version form select,
+.arabic-version form label {
+    font-family: GE-Dinar;
+}
+#ContactUs .main-topic h3 {
+    font-weight: 510;
+    padding-top: 3.5rem;
+    padding-bottom: 0.5rem;
+}
+.content-contact-us .carreer {
+    display: inline-block;
+    color: var(--primary-color);
+}
+#ContactUs .contact-us-section .social-contact .content-social-two {
+    padding-left: 9.6rem;
+}
+.arabic-version
+#ContactUs
+.contact-us-section
+.social-contact
+.content-social-two {
+    padding-right: 8.4rem;
+}
+.social-contact svg {
+    width: 25px;
+    height: 25px;
+}
+.contact-us-section .social-media picture {
+    width: 40px;
+    height: 40px;
+}
+#ContactUs .main-btn {
+    padding: 0.2rem 1.3rem;
+}
+
+/* Ticekt 69 */
+.tab-pane:nth-child(4) .home-educational-Programs-content-inner,
+.tab-pane:nth-child(5) .home-educational-Programs-content-inner,
+.tab-pane:nth-child(6) .home-educational-Programs-content-inner {
+    background: #14b1e7;
+}
+.arabic-version .home-educational-Programs-controllers .nav-link {
+    font-weight: 600;
+}
+
+/* Ticekt 85 */
+@media (max-width: 767.888888px) {
+    .research-report-pagination {
+        justify-content: center !important;
+    }
+}
+
+/* Ticekt 74 */
+.home-virtual-tour-section-inner-scan picture {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 400px) {
+    #cssmenu.small-screen #menu-button {
+        bottom: 15%;
+    }
+}
+
+/* Ticekt 78 */
+@media (max-width: 575.888888px) {
+    .container.home-hero-slide-content p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+/*  */
+@media (max-width: 1200.8889px) {
+    .main-navigation-search-container .navigation-search::after {
+        height: 65%;
+        width: 25%;
+        right: 39px;
+    }
+}
+
+@media (min-width: 768px) {
+    /*ticket 12*/
+
+    .Header-section-content {
+        padding: 1.2rem 0 !important;
+    }
+
+    .main-navigation--container {
+        display: flex;
+        flex-direction: column;
+        background: var(--white);
+        box-shadow: 0px 20px 32px 0px #b6b6b640;
+    }
+
+
+    .Header-section {
+        height: 570px !important;
+    }
+
+
+    .Header-section .container picture img {
+        bottom: -7rem !important;
+    }
+
+    .Header-section .pattern {
+        position: absolute !important;
+        z-index: 1 !important;
+        inset-inline-start: 0rem !important;
+        bottom: unset !important;
+        width: 23% !important;
+        top: 70% !important;
+    }
+
+    .Header-section .container{
+        position: relative !important;
+    }
+
+    .Header-section::before {
+        content: "" !important;
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: #262836;
+        z-index: -1 !important;
+    }
+
+
+    .Header-section .pattern img {
+        opacity: 0.25;
+
+    }
+
+    .Header-section {
+        background-image: unset;
+        position: relative;
+    }
+
+    /*shiftingg images*/
+
+    .Header-section .container picture img {
+        bottom: -2rem !important;
+        width: 69%;
+
+    }
+
+}
+
+@media (max-width: 767.888888888888px) {
+    .Header-section .container picture img {
+        right: unset !important ;
+        left: unset !important;
+    }
+
+
+    .Header-section::before {
+        background:  #262836 ;
+    }
+
+    #AdmissionPolicy .Header-section .pattern {
+        top: 5rem;
+        width: 180px;
+        bottom: unset;
+    }
+}
+.Header-section .pattern img {
+    opacity: 0.25;
+}
+
+
+@media (min-width: 768px) {
+    .Header-section .pattern {
+        width: 300px !important;
+        top: 474px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.88888888px) {
+    .Header-section {
+        height: 425px !important;
+    }
+}
+
+@media (max-width: 767.88888888888888px ) {
+    .PhotoGallery-section .container {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.main-navigation-search-container .navigation-search::after {
+    width: 38%;
+}
+@media (min-width: 1200px) {
+    .arabic-version .main-navigation-search-container .navigation-search::after {
+        width: 45%;
+
+    }
+}
+@media (max-width: 1200.89px) {
+    .main-navigation-search-container .navigation-search::after {
+        height: 55%;
+        width: 25%;
+        inset-inline-end: 39px;
+    }
+    .arabic-version .main-navigation-search-container .navigation-search::after {
+        right: unset !important;
+    }
+}
+
+.container.home-hero-slide-content p {
+    text-align: justify;
+}
+
+.footer-section .footer-item h5 {
+    padding-bottom:unset ;
+}
+
+.arabic-version .main-footer-container .footer-item ul li {
+    padding-bottom: 0.2rem;
+}
+
+
+#LastestNewsInner .main-topic h3 {
+    font-weight: 510;
+}
+
+.arabic-version #LastestNewsInner .main-topic h3 {
+    font-weight: 600;
+}
+
+/* Ticket 69 */
+.tab-pane:nth-child(4) .home-educational-Programs-content-inner,
+.tab-pane:nth-child(5) .home-educational-Programs-content-inner,
+.tab-pane:nth-child(6) .home-educational-Programs-content-inner {
+    background-color: rgb(20 177 231 / 83%) !important;
+}
+
+/* Ticket 48 */
+.searchBarOpen--input label {
+    padding-inline-end: 2.7rem;
+}
+form label {
+    font-family: Helvetica !important;
+    font-size: 0.95rem;
+}
+.arabic-version
+.main-navigation-search-container
+.navigation-search:hover::after {
+    width: 100%;
+}
+/* Ticket 48 */
+.arabic-version form label {
+    font-family: GE-Dinar !important;
+}
+
+/* Ticket 26 */
+#ContactUs .contact-us-section .social-contact .content-social-two {
+    padding-left: 153px;
+}
+#ContactUs .main-btn {
+    padding: 0.2rem 0.9rem;
+}
+.arabic-version #ContactUs .main-btn input {
+    font-family: Ge-Dinar;
+}
+.arabic-version
+#ContactUs
+.contact-us-section
+.social-contact
+.content-social-two {
+    padding-right: 8.2rem;
+}
+
+/* Ticket 40 */
+#SummerCamp .Header-section-content .secondary-btn:hover {
+    color: #262836 !important;
+}
+/* Ticket 45 */
+.arabic-version #PhotoGallery .main-btn svg {
+    scale: -1;
+}
+.photoGallery-card {
+    overflow: hidden;
+}
+.page-item i {
+    font-size: 17px;
+}
+
+/* Ticket 50 */
+.menu-btn-text {
+    line-height: 0 !important;
+}
+#cssmenu > ul > li > a {
+    font-weight: 400;
+}
+
+
+.arabic-version #cssmenu li.has-sub > ul.open {
+    left: unset;
+    right: auto;
+}
+
+/* Tickets 88 */
+.slider-with-progress-bar--controllers-arrow-next-our i,
+.slider-with-progress-bar--controllers-arrow-prev-our i {
+    font-size: 17px;
+    color: #fff;
+}
+lite-youtube {
+    height: 316px;
+}
+/* Tickets 95 */
+#cssmenu.head_btm_menu > ul ul li a {
+    font-size: 0.9rem !important;
+}
+
+/* Tickets 96 */
+.secondary-btn {
+    font-size: 0.9rem !important;
+}
+
+/* Tickets 50 */
+.home-educational-Programs-controllers .nav-link.active:nth-child(1)::after {
+    background-color: #0066b3 !important;
+}
+.home-educational-Programs-controllers .nav-link.active:nth-child(2)::after {
+    background-color: #0074bc !important;
+}
+.home-educational-Programs-controllers .nav-link.active:nth-child(3)::after {
+    background-color: #0082c6 !important;
+}
+.home-educational-Programs-controllers .nav-link.active:nth-child(4)::after {
+    background-color: #0091d0 !important;
+}
+.home-educational-Programs-controllers .nav-link.active:nth-child(5)::after {
+    background-color: #00a0dc !important;
+}
+
+.home-educational-Programs-controllers .nav-link.active:nth-child(6)::after {
+    background-color: #14b1e7 !important;
+}
+
+.tab-pane:nth-child(1) .home-educational-Programs-content-inner {
+    background-color: rgb(0 102 179 / 83%) !important;
+}
+.tab-pane:nth-child(2) .home-educational-Programs-content-inner {
+    background-color: rgb(0 116 188 / 83%) !important;
+}
+
+.tab-pane:nth-child(3) .home-educational-Programs-content-inner {
+    background-color: rgb(0 130 198 / 83%) !important;
+}
+.tab-pane:nth-child(4) .home-educational-Programs-content-inner {
+    background-color: rgb(0 145 208 / 83%) !important;
+}
+.tab-pane:nth-child(5) .home-educational-Programs-content-inner {
+    background-color: rgb(0 160 220 / 83%) !important;
+}
+
+.tab-pane:nth-child(6) .home-educational-Programs-content-inner {
+    background-color: rgb(20 177 231 / 83%) !important;
+}
+
+/* Ticket 26*/
+.arabic-version
+#ContactUs
+.contact-us-section
+.social-contact
+.content-social-two {
+    padding-right: 8.3rem !important;
+}
+/* */
+.footer-item #about p {
+    margin: 0;
+}
+.main-footer-container .footer-item ul li a:hover p {
+    /* text-decoration: underline; */
+    text-underline-offset: 4px;
+    color: var(--primary-color);
+}
+
+/* Ticket 26 */
+.content-add {
+    transform: translateY(20px);
+}
+.social-contact li:last-child .info-contact-us {
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Ticket 75 */
+.arabic-version .PhotoGallery-section .container .play-video-icon {
+    scale: -1 !important;
+}
+
+/* Ticket 40 */
+.summer-camp-section .summer-camp-video lite-youtube,
+.summer-camp-section .summer-camp-video iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Ticket 25 */
+.submit-btn {
+    font-size: 0.9rem;
+}
+.submit-btn:focus {
+    border: none !important;
+}
+
+
+
+
+/*ticket 79*/
+
+.custom-accordion .accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-color: var(--primary-color);
+}
+
+/* Ticket 101 */
+@media (max-width: 991.98888px) {
+    .timeline-dot {
+        margin-top: 6px;
+    }
+    .slick-current .timeline-dot {
+        margin-top: unset;
+    }
+}
+
+/* Ticket 100 */
+.arabic-version .international-baccalaureate-section .nav .nav-link {
+    font-size: 0.85rem;
+}
+.international-baccalaureate-section .nav .nav-link {
+    padding: 0.8rem 2rem;
+}
+#InternationalBaccalaureate p {
+    color: #000;
+}
+
+
+/* Ticket 77 */
+#videoGallery .Video-card-content {
+    gap: 20px;
+}
+
+/*ticket 105*/
+.all-history {
+    scrollbar-width: unset;
+}
+
+/*ticket 104*/
+.history-container-images .history-image .history-date {
+    top: -32%;
+}
+
+/* Ticket 97 */
+.popup-controls .next {
+    right: -32%;
+    top: 104%;
+}
+.popup-controls .prev {
+    left: 121%;
+    top: 104%;
+}
+@media (max-width: 991.889px) {
+    .popup-controls .prev {
+        left: 32%;
+    }
+}
+/* Ticket 98 */
+@media (max-width: 991.889px) {
+    .arabic-version .popup-controls .next picture,
+    .arabic-version .popup-controls .prev picture {
+        scale: -1;
+    }
+}
+
+/* /* Ticket 78 */
+@media (min-width: 768px) {
+    .mobile-img-slider {
+        display: none;
+    }
+}
+@media (max-width: 767.889px) {
+    .desktop-img-slider {
+        display: none;
+    }
+    .mobile-img-slider {
+        display: block;
+        height: auto;
+    }
+}
+
+.home-hero-slider-container {
+    min-height: unset !important;
+}
+
+.home-hero-slider-arrows span:nth-child(1),
+.home-hero-slider-arrows span:nth-child(2) {
+    top: 39% !important;
+}
+
+/*!* ======== *!*/
+/*.PhotoGallery-section .container picture {*/
+/*    width: 38px;*/
+/*}*/
+.play-video-icon {
+    height: 38px;
+    min-width: 38px !important;
+}
+
+/* Ticket 100 */
+#InternationalBaccalaureate .Header-section-content p {
+    color: #fff;
+}
+
+
+/*ticket 79 */
+
+.custom-accordion .accordion-button {
+
+    font-weight: 500;
+}
+
+
+.accordion-flush .accordion-item .accordion-button {
+    text-align: start;
+}
+
+.form-check-label{
+    margin-bottom: 0 !important;
+    margin-top: 0.5rem;
+    margin-inline-end: 1rem;
+}
+
+.custom-gap{
+    margin-bottom: 0.5rem;
+}
+
+.fixed-registration-card img{
+    max-height: 300px !important;
+}
+
+@media (max-width: 1200px) {
+    #cssmenu #menu-button + ul{
+        overflow-x: hidden;
+    }
+}
+
+
+.arabic-version .contact-us-section input[type=radio]{
+    padding-right: unset !important;
+}
+
+.qr-scan img{
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 767.8888888888px){
+    .Header-section .pattern{
+        display: none;
+    }
+}
+
+.input-group .form-control.is-invalid, .input-group .form-select.is-invalid, .was-validated .input-group .form-control:invalid, .was-validated .input-group .form-select:invalid{
+    z-index: 0 !important;
+}
+
+.arabic-version .contact-us-section input.is-invalid{
+    padding-right: 2rem;
+}
+
+
+
+.arabic-version #ContactUs .iti__country-list {
+    width: 200px;
+    right: unset;
+    left: 0;
+}
+
+
+@media (max-width: 1100px) {
+    #VideoGallery .popup-content {
+        width: 680px !important;
+        height: 450px !important;
+    }
+}
+
+
+@media (max-width: 767.8888px) {
+        #VideoGallery .popup-content {
+            width: 320px !important;
+            height: 220px !important;
+        }
+
+}
+
+.form-control {
+    font-size: 0.85rem;
+    font-family: Helvetica;
+}
+
+
+@media (max-width: 767.88888px) {
+        /*.Header-section {*/
+        /*    height: 425px !important;*/
+        /*}*/
+
+    .Header-section::before {
+        content: "" !important;
+        position: absolute !important;
+        left: 0 !important;
+        top: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        background: #262836;
+        z-index: -1 !important;
+    }
+
+    .Header-section .container {
+        position: relative !important;
+    }
+
+    .Header-section .pattern {
+        width: 300px !important;
+        top: 25px !important;
+    }
+
+    .Header-section .pattern {
+        position: absolute !important;
+        z-index: 1 !important;
+        inset-inline-start: 18% !important;
+        bottom: unset !important;
+        display: block;
+    }
+
+
+    /*.Header-section .container picture img {*/
+    /*    bottom: -2rem !important;*/
+    /*    width: 69%;*/
+    /*}*/
+
+    .Header-section {
+        background-image: unset;
+        position: relative;
+    }
+
+
+}
+
+@media (max-width: 991.888888889px) {
+
+
+    #cssmenu > ul > li:hover a:before, #cssmenu > ul > li a:hover:before {
+        display: none;
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.888px) {
+    .searchBarOpen.search-active > .searchBarOpen--input input {
+        width: 50vw;
+    }
+}
+
+#LastestNewsInner .slider-with-progress-bar-section .slider-with-progress-bar--single-slide-img picture {
+    height: 200px;
+    display: flex;
+    align-items: end;
+}
+
+
+#LastestNewsInner .slider-with-progress-bar-section .slider-with-progress-bar--single-slide-img picture {
+    background-color: white;
+}
+
+.slider-with-progress-bar--single-slide-img img {
+    width: 100%;
+     object-fit:  unset;
+     aspect-ratio: unset;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 100%;
+}
+
+@media screen and (min-width: 1201px) {
+    #cssmenu.head_btm_menu  ul ul li.has-sub > a{
+        width: 100% !important;
+        display: flex;
+    }
+
+    #cssmenu ul ul li.has-sub > a i {
+        justify-self: flex-end !important;
+    }
+}
+
+.home-hero-slider .slick-track{
+    display: flex;
+    max-height: 85vh;
+}
+
+.home-hero-slider .home-hero-slide{
+    height: inherit;
+}
+
+.home-hero-slider picture{
+    display: block;
+    height: 100%;
+}
+
+.home-hero-slider video, .home-hero-slider img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cssmenu.head_btm_menu > ul ul li a{
+    width: 100% !important;
+}
+
+#cssmenu li:hover > ul{
+    min-width: -webkit-max-content;
+}

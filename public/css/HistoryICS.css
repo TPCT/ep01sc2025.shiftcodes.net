@@ -1,0 +1,114 @@
+.our-ics-history {
+  padding-top: 3rem !important;
+  background: #2c362b0d;
+}
+.our-ics-history .main-head {
+  padding-bottom: 3em;
+}
+.our-ics-history .main-head h2 {
+  color: var(--primary-color);
+}
+.all-history {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+@media (max-width: 991.8888px) {
+  .all-history .history-container-images {
+    width: 1030px;
+  }
+}
+.history-container-images {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  height: 750px;
+}
+
+.history-container-images .history-image {
+  flex: 1;
+  transition: flex 0.5s ease;
+  height: 500px;
+  opacity: 0.4;
+  cursor: pointer;
+  border-radius: 10px;
+  position: relative;
+}
+@media (max-width: 767.8888px) {
+  .history-container-images .history-image {
+    flex: 2;
+  }
+  .history-container-images .history-image.active {
+    flex: 8 !important;
+  }
+}
+.history-container-images .history-image .history-date {
+  position: absolute;
+  top: -49%;
+  transform: translate(-50%, -50%);
+  left: 49.5%;
+  rotate: 270deg;
+  opacity: 0.4;
+}
+.history-container-images .history-image.active .history-date {
+  opacity: 1;
+}
+.history-container-images .history-image::before {
+  position: absolute;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  content: "";
+  width: 3px;
+  height: 50%;
+  background-color: #2c362b40;
+
+  border-radius: 10px;
+}
+.history-container-images .history-image.history-image.active .history-date {
+  color: var(--primary-color);
+}
+.history-container-images .history-image.history-image.active::before {
+  background-color: var(--primary-color);
+  opacity: 1;
+}
+.history-container-images .history-image .history-pic {
+  border-radius: 10px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.history-container-images .history-image picture {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.history-container-images .history-image picture img {
+  height: 100%;
+  object-fit: cover;
+}
+.history-container-images .history-image.active {
+  flex: 7;
+  opacity: 1;
+}
+.history-container-images .history-image p {
+  color: #fff;
+  position: absolute;
+  background-color: var(--primary-color);
+  padding: 10px;
+  left: 0;
+  bottom: -250%;
+  margin: 0;
+  text-align: justify;
+  transition: 0.5s ease;
+  font-size: 14px;
+}
+.history-container-images .history-image.active p {
+  bottom: 0;
+}
+
+.all-history{
+  overflow: unset;
+}

@@ -1,0 +1,25 @@
+.admission-policy-section h3 {
+  color: var(--primary-color);
+}
+.admission-policy-section .marker-admission li::marker {
+  color: var(--primary-color);
+}
+.admission-policy-section .marker-admission {
+  list-style: disc;
+  padding-left: 3rem;
+}
+.arabic-version .admission-policy-section .marker-admission li {
+  padding-left: 0;
+}
+.admission-policy-section ul {
+  list-style: decimal;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.arabic-version .admission-policy-section ul {
+  padding-right: 1rem;
+}
+.arabic-version .admission-policy-section .marker-admission {
+  padding-right: 3rem;
+}

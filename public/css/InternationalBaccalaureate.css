@@ -1,0 +1,82 @@
+.international-baccalaureate-section .nav {
+  width: fit-content;
+  background: #2c362b1a;
+  border: var(--main-border);
+  border-radius: 50px;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.international-baccalaureate-section .nav .nav-link {
+  color: var(--main-color);
+  border-radius: 20px;
+}
+.international-baccalaureate-section .nav-tabs .nav-link.active {
+  background: #0091d0;
+
+  color: #fff;
+  border-radius: 2rem;
+}
+.international-baccalaureate-section h3,
+.international-baccalaureate-section h4,
+.Download-section h2 {
+  color: #0091d0;
+}
+.Download-section {
+  background: #0091d00d;
+}
+.Download-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid: auto;
+  grid-row: auto;
+  gap: 10px;
+}
+.Download-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgba(44, 54, 43, 0.2);
+  border-radius: 10px;
+}
+.Download-card picture {
+  min-height: 250px;
+  background: #0091d033;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.Download-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+}
+@media (max-width: 991.88888px) {
+  .Download-section .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 767.88888px) {
+  .Download-section .container {
+    grid-template-columns: 1fr;
+  }
+}
+.Download-section .main-btn::before {
+  background-color: #0091d0;
+}
+.Download-section .main-btn {
+  border-color: #0091d0;
+  color: #0091d0;
+}
+.Download-section .main-btn svg {
+  fill: #0091d0;
+}
+.Download-section .main-btn:hover svg {
+  fill: #fff;
+}

@@ -1,0 +1,4 @@
+.arabic-version .custom-accordion .accordion-button:not(.collapsed) .accordion-btn img {
+    transition: all 0.3s ease-out;
+    transform: rotate(-360deg);
+  }

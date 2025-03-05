@@ -1,0 +1,68 @@
+.BoardofDirectors-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+.BoardofDirectors-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(44, 54, 43, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+.BoardofDirectors-card h4{
+    color: var(--primary-color);
+    
+}
+.BoardofDirectors-card picture{
+    display: flex;
+    background-color: rgba(220, 153, 55, 0.1);
+    max-height: 250px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.BoardofDirectors-card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: contain;
+}
+.BoardofDirectors-card div {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+.BoardofDirectors-card div p{
+    height: 2rem;
+}
+.last-yellow-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #DC9937 0%, #CF8A26 100%);
+    color: white;
+    align-items: center;
+    margin-top: 5rem;
+}
+@media (max-width:991.88888px) {
+    .BoardofDirectors-section .container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width:767.88888px) {
+    .BoardofDirectors-section .container{
+        grid-template-columns: 1fr ;
+    }
+    .BoardofDirectors-card picture{
+        max-height: unset;
+    }    
+    .last-yellow-box{
+        flex-direction: column;
+    }
+}

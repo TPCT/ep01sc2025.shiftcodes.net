@@ -1,0 +1,49 @@
+.join-us-section .box-join-us {
+  background: var(--Base-Base-White, #fafafa);
+  padding: 20px;
+  border-radius: 10px;
+}
+.join-us-section .box-join-us span {
+  color: var(--secondary);
+}
+.join-us-section .box-join-us .head-box-join-us picture {
+  display: block;
+  width: fit-content;
+}
+.join-us-section .box-join-us h3 {
+  height: 50px;
+  color: var(--primary-color);
+}
+.join-us-section .box-join-us p {
+  color: #0b0a0a;
+}
+.arabic-version .join-us-section .box-join-us h3 {
+  height: 105px;
+}
+.join-us-section .box-join-us .head-box-join-us picture img {
+  height: 65px;
+}
+.others {
+  background-color: var(--secondary);
+}
+.others p {
+  flex: 1;
+  color: #fff;
+}
+
+.others a:hover span {
+  color: var(--secondary) !important;
+}
+.others h3,
+.others span {
+  color: #fff !important;
+}
+.others .home-btn-main picture {
+  background: #fff;
+}
+.others .home-btn-main:hover::after {
+  background: #fff;
+}
+a.home-btn-main span {
+  font-weight: 400;
+  }

@@ -1,0 +1,114 @@
+/* more about  */
+.moreAbout-section h2{
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+.moreAbout-section{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.moreAbout-section .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.moreAbout-section .container picture{
+    display: flex;
+    border-radius: 10px;
+}
+.moreAbout-section .container img{
+    width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+.moreAbout-card{
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.moreAbout-card-content{
+    position: relative;
+    border-top: 8px rgba(0, 116, 188, 1) solid;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    padding: 1rem;
+    width: 90%;
+    margin-top: -4rem;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px rgba(182, 182, 182, 0.25);
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+.moreAbout-card-content a{
+    justify-self: flex-start;
+}
+@media (max-width:991.88888888px) {
+    .moreAbout-section .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:767.88888888px) {
+    .moreAbout-section .container{
+        grid-template-columns: 1fr ;
+    }
+}
+
+
+
+
+
+/* awards  */
+.awards-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 7rem;
+}
+.awards-card{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid rgba(44, 54, 43, 0.2);
+    border-radius: 10px;
+    padding: 1rem;
+
+
+}
+.awards-card picture{
+    border-radius: 50%;
+    border: 1.5px solid rgba(220, 153, 55, 1);
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.awards-card h4{
+    margin-bottom: 0.8rem;
+}
+.awards-card picture img{
+    width: 78px;
+    object-fit: contain;
+   
+}
+@media (max-width:991.888888px) {
+    .awards-section .container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:767.888888px) {
+    .awards-section .container{
+        grid-template-columns: 1fr;
+    }
+}

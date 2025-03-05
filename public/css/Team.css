@@ -1,0 +1,43 @@
+#Team .section-topic {
+margin-top: 5rem;
+}
+.Our-Team-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.Our-Team-card-section{
+    background-image: url('../Assets/Image/Group\ 207.png');
+    background-position: center center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 5rem;
+}
+.Our-Team-card{
+    border-radius: 10px;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    gap: 1rem;
+}
+.Our-Team-card h3{
+    color: var(--primary-color);
+}
+.Our-Team-card picture{
+    margin-bottom: 1rem;
+}
+@media (max-width:991.8888888px) {
+    .Our-Team-card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:767.8888888px) {
+    .Our-Team-card-container{
+        grid-template-columns:  1fr;
+    }
+}

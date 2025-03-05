@@ -1,0 +1,18 @@
+.ProjectDetail-1st-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap :40px;
+    align-items: center;
+    margin-top: 3rem;
+}
+.ProjectDetail-1st-section .container img{
+    width: 100%;
+}
+.ProjectDetail-2nd-section .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+}

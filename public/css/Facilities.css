@@ -1,0 +1,16 @@
+.facilities-section .box-facilities {
+  border: 1px solid #2c362b33;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.facilities-section .box-facilities h4 {
+  height: 100%;
+  text-align: center;
+}
+.facilities-section .box-facilities .info-box-facilities {
+  padding: 0 10px;
+  height: 100%;
+}
+.facilities-section .main-btn {
+  padding: 1rem !important;
+}
